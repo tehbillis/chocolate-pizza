@@ -144,3 +144,40 @@ hr {
   border: none;
   background: url(img/hr-img.png) repeat;
 }
+
+.author {
+  margin-top: 25px;
+  margin-bottom: 80px;
+  display: flex;
+}
+
+.author img {
+  width: 71px;
+  height: 68px;
+  margin-right: 20px;
+}
+
+.author h2 {
+  color: #56575c;
+  font-size: 26px;
+}
+
+.author p {
+  margin-top: 20px;
+  text-indent: 0px;
+}
+
+.author button {
+  margin-top: 5px;
+  margin-left: 25px;
+  width: 185px;
+  height: 55px;
+  color: #edf0e9;
+  background-color: #bd7158;
+  border: none;
+}
+
+.author button:hover {
+  cursor: pointer;
+  background-color: #9C4D34;
+}
