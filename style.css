@@ -1,0 +1,146 @@
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 125px;
+  margin-top: 25px;
+}
+
+#headerContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 900px;
+  margin-bottom: 20px;
+}
+
+#siteLogo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 300px;
+}
+
+#siteLogo img {
+  max-width: 43px;
+  max-height: 46px;
+}
+
+#siteLogo section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+#siteLogo h1 {
+  font-family: 'Yellowtail', cursive;
+  font-size: 40px;
+  margin-left: -5px;
+  margin-top: -5px;
+}
+
+#siteLogo p {
+  font-size: 10px;
+  font-weight: 100;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #827c78;
+}
+
+#social {
+  width: 215px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#social img {
+  max-width: 25px;
+  max-height: 25px;
+  margin: -1px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main article {
+  width: 900px;
+}
+
+main p {
+  margin-top: 40px;
+  color: #707176;
+  font-size: 19.5px;
+  text-indent: 30px;
+}
+
+.articleHeader {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.articleHeader h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 41px;
+  margin-bottom: 10px;
+
+}
+
+.articleHeader p {
+  font-size: 13px;
+  font-weight: 100;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #acabaa;
+  margin-top: 0px;
+  text-indent: 0px;
+}
+
+.print {
+  display: flex;
+  align-self: flex-end;
+}
+
+.print img {
+  width: 15px;
+  height: 13px;
+}
+
+#ingredients {
+  height: 300px;
+  background: url(img/list-bg.png);
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 0px 60px 0px 60px;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 23px;
+  color: #777160;
+}
+
+#ingredients section {
+margin-top: 32px;
+display: flex;
+flex-direction: column;
+}
+
+#ingredients ul {
+  height: 194px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+hr {
+  height: 13px;
+  width: 900px;
+  border: none;
+  background: url(img/hr-img.png) repeat;
+}

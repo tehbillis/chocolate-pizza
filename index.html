@@ -4,31 +4,40 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Delicious Blog</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Patrick+Hand&family=Yellowtail&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+
+  <script src="app.js"></script>
 </head>
 <body>
   <header>
-    <section>
-      <section>
-        <img src="" alt="">
+    <section id="headerContainer">
+      <section id="siteLogo">
+        <img src="img/logo.png" alt="Site Logo">
         <section>
           <h1>Delicious</h1>
-          <p>THE BEST FOOD BLOG ON THE WEB</p>
+          <p>THE BEST FOOD BLOG ON THE WEB.</p>
         </section>
       </section>
-    </section>
 
-    <section>
-      <section>
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-      </section>
-      <section>
-        <img src="" alt="">
-        <img src="" alt="">
+      <section id="social">
+          <section>
+          <img src="img/fb-icon.png" alt="facebook">
+          <img src="img/twit-icon.png" alt="twitter">
+          <img src="img/gp-icon.png" alt="g+">
+          <img src="img/insta-icon.png" alt="instagram">
+          <img src="img/flic-icon.png" alt="flickr">
+          <img src="img/pint-icon.png" alt="pinterest">
+        </section>
+        <section>
+          <img src="img/rss-icon.png" alt="rss">
+          <img src="img/mail-icon.png" alt="email">
+        </section>
       </section>
     </section>
 
@@ -37,53 +46,84 @@
 
   <main>
     <article>
-      <section>
-        <h1>Chocolate Pizza</h1>
-        <p>POSTED ON 15 DEC 2013 / DESERTS</p>
+      <section class="articleHeader">
+        <section>
+          <h1>Chocolate Pizza</h1>
+          <p>POSTED ON 15 DEC 2013 / DESERTS</p>
+        </section>
+        <section class="print">
+          <img src="img/print-icon.png" alt="print">
+          <p>PRINT</p>
+        </section>
       </section>
-      <section>
-        <img src="" alt="">
-        <p>PRINT</p>
-      </section>
-      <img src="" alt="">
+      <img src="img/choco-pizza.png" alt="Chocolate pizza">
       <p>For the fig-swirl: Melt butter over medium heat in a saucepan. Add brown sugar and stir to dissolve. Halve all of the figs and toss in the saucepan with water and lemon juice. Cook over medium heat, stirring frequently, until you have a chunky-jammy mixture. Add salt with one or two stirs, set aside and let cool completely.</p>
       <p>Ice cream: In a small pot over medium heat, combine milk, and granulated sugar until sugar is completely dissolved and the milk is just barely lukewarm. Whisk in the egg yolks. Set mixture in the fridge and wait until the fig mixture is cooled.</p>
       <p>Using an ice cream machine, pour liquids into the frozen basin and process according to manufacturer instructions, i.e., let spin and thicken for 20 minutes before adding mascarpone, fig jam mixture, and the nuts. Continue to process for +/- 10 minutes. Pour semi-frozen mixture into a pyrex dish or glass tupperware. Freeze for at least two hours before serving.</p>
-      <section>
+
+      <section id="ingredients">
         <section>
-          <input type="checkbox">
-          <label for="">1 1/2 cups milk</label>
-          <input type="checkbox">
-          <label for="">1/2 cup mascarpone</label>
-          <input type="checkbox">
-          <label for="">1/2 tsp pink salt</label>
-          <input type="checkbox">
-          <label for="">1 lb Black Mission Figs</label>
-          <input type="checkbox">
-          <label for="">1/2 cup brown sugar</label>
-          <input type="checkbox">
-          <label for="">2-4 tbsp water</label>
+          <ul>
+            <li>
+              <input type="checkbox" id="milk">
+              <label for="milk">1 1/2 cups milk</label>
+            </li>
+            <li>
+              <input type="checkbox" id="mascarpone">
+              <label for="mascarpone">1/2 cup mascarpone</label>
+            </li>
+            <li>
+              <input type="checkbox" id="salt">
+              <label for="salt">1/2 tsp pink salt</label>
+            </li>
+            <li>
+              <input type="checkbox" id="figs">
+              <label for="figs">1 lb Black Mission Figs</label>
+            </li>
+            <li>
+              <input type="checkbox" id="sugar">
+              <label for="sugar">1/2 cup brown sugar</label>
+            </li>
+            <li>
+              <input type="checkbox" id="water">
+              <label for="water">2-4 tbsp water</label>
+            </li>
+        </ul>
         </section>
         <section>
-          <input type="checkbox">
-          <label for="">1 1/2 cups heavy cream</label>
-          <input type="checkbox">
-          <label for="">1/3 granulated sugar</label>
-          <input type="checkbox">
-          <label for="">2 egg yolks</label>
-          <input type="checkbox">
-          <label for="">1 lemon, juiced</label>
-          <input type="checkbox">
-          <label for="">2 tbsp butter</label>
-          <input type="checkbox">
-          <label for="">1 cup honey roasted pecans, roughly chopped</label>
+          <ul>
+            <li>
+              <input type="checkbox" id="cream">
+              <label for="cream">1 1/2 cups heavy cream</label>
+            </li>
+            <li>
+              <input type="checkbox" id="granSugar">
+              <label for="granSugar">1/3 granulated sugar</label>
+            </li>
+            <li>
+              <input type="checkbox" id="egg">
+              <label for="egg">2 egg yolks</label>
+            </li>
+            <li>
+              <input type="checkbox" id="lemon">
+              <label for="lemon">1 lemon, juiced</label>
+            </li>
+            <li>
+              <input type="checkbox" id="butter">
+              <label for="butter">2 tbsp butter</label>
+            </li>
+            <li>
+              <input type="checkbox" id="pecans">
+              <label for="pecans">1 cup honey roasted pecans, roughly chopped</label>
+            </li>
+          </ul>
         </section>
       </section>
 
       <hr>
 
       <section>
-        <img src="" alt="">
+        <img src="img/van-pic.png" alt="Author Image">
         <section>
           <h2>Vanessa Stevenson</h2>
           <p>Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
@@ -96,7 +136,7 @@
   <footer>
     <section>
       <hr>
-      <img src="" alt="">
+      <img src="img/small-logo.png" alt="small logo">
     </section>
     <p>
       Delicious &copy; 2013 &bull; All Rights Reserved.</br>
